@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "554b39b7-4adc-4e15-951d-9384a620941b",
+		"name": "code-sharing-platform",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "14524570"
+	},
+	"item": [
+		{
+			"name": "getCodeById - API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8889/api/code/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8889",
+					"path": [
+						"api",
+						"code",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getLatestCodes - API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8889/api/code/latest",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8889",
+					"path": [
+						"api",
+						"code",
+						"latest"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newCode - API",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"code\":\"\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8889/api/code/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8889",
+					"path": [
+						"api",
+						"code",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "newCode - WEB",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8889/code/new",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8889",
+					"path": [
+						"code",
+						"new"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getCode - WEB",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8889/code",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8889",
+					"path": [
+						"code"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
